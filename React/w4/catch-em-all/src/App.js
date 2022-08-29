@@ -19,7 +19,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Axios Pokemon API Assignment</h1>
+      <h1>Gotta Catch 'em All</h1>
       <ul>
         {pokeApiData.map((pokemon, index) => (
           <li key={index}>{pokemon.name}</li>
